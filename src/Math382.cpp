@@ -104,12 +104,10 @@ int main(){
 	stack<matrix> matrices;
 	
 	string input;
-	string delim = "{";
+	string delim = ",";
 	int past = 0;
-	string[100] levelOne;
 	for(int x=0; x>0;x=input.find(delim,past)){
-		input.substr(past,x);
-		past=x;
+
 	}
 	
 	
